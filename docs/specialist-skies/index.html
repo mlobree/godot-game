@@ -1,66 +1,20 @@
 <!DOCTYPE html>
-<html lang=&rdquo;en&rdquo;>
+<html lang="en">
 <head>
-<meta charset=&rdquo;utf-8&rdquo;>
-<meta name=&rdquo;viewport&rdquo; content=&rdquo;width=device-width, initial-scale=1.0&rdquo;>
-<title>Specialist skies · Scene Studio</title>
-<meta name=&rdquo;description&rdquo; content=&rdquo;Godot skies written by a fine-tuned 3B model from one line of description, then rendered and judged by a verifier.&rdquo;>
-<link rel=&rdquo;stylesheet&rdquo; href=&rdquo;../assets/gallery.css&rdquo;>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scene Studio has moved</title>
+<link rel="canonical" href="https://marc-genai-aws.github.io/godot-game/specialist-skies/">
+<meta http-equiv="refresh" content="0; url=https://marc-genai-aws.github.io/godot-game/specialist-skies/">
+<script>location.replace('https://marc-genai-aws.github.io/godot-game/specialist-skies/' + location.hash);</script>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+         background: #0a0b0d; color: #edeef1; font: 16px/1.6 ui-sans-serif, "Segoe UI", Arial, sans-serif; }
+  p { max-width: 34rem; padding: 2rem; text-align: center; color: #9aa1ab; }
+  a { color: #e0a458; }
+</style>
 </head>
 <body>
-<main>
-<a class=&rdquo;nav&rdquo; href=&rdquo;../&rdquo;>&larr; Scene Studio</a>
-
-<p class=&rdquo;eyebrow&rdquo;>Specialist models</p>
-<h1>Skies written by a fine-tuned 3B model</h1>
-<p class=&rdquo;lead&rdquo;>Each sky below came from the one line of description on its card. Claude turns the line into a
-sky brief, a fine-tuned Qwen2.5-Coder-3B writes the Godot&nbsp;4 sky layer, and the verifier renders it in the
-running game and judges it against the brief. No sky here was written or edited by a larger model.</p>
-
-<div class=&rdquo;grid&rdquo; style=&rdquo;margin-top:3rem&rdquo;>
-  <a class=&rdquo;card&rdquo; href=&rdquo;../play/#world=street&swap=sky:res://segments/sky/generated/street-sunny.gd&rdquo;>
-    <div class=&rdquo;thumbs&rdquo;><img src=&rdquo;street-sunny-a.jpg&rdquo; alt=&rdquo;Street · bright sunny day view 1&rdquo; loading=&rdquo;lazy&rdquo;></div>
-    <div class=&rdquo;card-body&rdquo;>
-      <h2>Street &middot; bright sunny day</h2>
-      <p>&ldquo;a bright sunny day on the street, clear blue sky, crisp midday light and short shadows&rdquo;</p>
-    </div>
-  </a>
-  <a class=&rdquo;card&rdquo; href=&rdquo;../play/#world=beach&swap=sky:res://segments/sky/generated/beach-cloudy-2.gd&rdquo;>
-    <div class=&rdquo;thumbs&rdquo;><img src=&rdquo;beach-cloudy-2-a.jpg&rdquo; alt=&rdquo;Beach · cloudy day view 1&rdquo; loading=&rdquo;lazy&rdquo;></div>
-    <div class=&rdquo;card-body&rdquo;>
-      <h2>Beach &middot; cloudy day</h2>
-      <p>&ldquo;a cloudy day on the beach, a thick grey cloud deck with a few brighter breaks, soft shadowless light over the sea&rdquo;</p>
-    </div>
-  </a>
-  <a class=&rdquo;card&rdquo; href=&rdquo;../play/#world=street&swap=sky:res://segments/sky/generated/loop-demo-1.gd&rdquo;>
-    <div class=&rdquo;thumbs&rdquo;><img src=&rdquo;loop-demo-1-a.jpg&rdquo; alt=&rdquo;Street · overcast drizzly morning view 1&rdquo; loading=&rdquo;lazy&rdquo;></div>
-    <div class=&rdquo;card-body&rdquo;>
-      <h2>Street &middot; overcast drizzly morning</h2>
-      <p>&ldquo;an overcast, drizzly-looking morning on the street, flat grey light, sun hidden&rdquo;</p>
-    </div>
-  </a>
-  <a class=&rdquo;card&rdquo; href=&rdquo;../play/#world=beach&swap=sky:res://segments/sky/generated/loop-demo-2.gd&rdquo;>
-    <div class=&rdquo;thumbs&rdquo;><img src=&rdquo;loop-demo-2-a.jpg&rdquo; alt=&rdquo;Beach · clear tropical noon view 1&rdquo; loading=&rdquo;lazy&rdquo;></div>
-    <div class=&rdquo;card-body&rdquo;>
-      <h2>Beach &middot; clear tropical noon</h2>
-      <p>&ldquo;a clear tropical noon on the beach with a few small cumulus far out over the sea&rdquo;</p>
-    </div>
-  </a>
-  <a class=&rdquo;card&rdquo; href=&rdquo;../play/#world=beach&swap=sky:res://segments/sky/generated/loop-demo-3.gd&rdquo;>
-    <div class=&rdquo;thumbs&rdquo;><img src=&rdquo;loop-demo-3-a.jpg&rdquo; alt=&rdquo;Beach · dusk, magenta band view 1&rdquo; loading=&rdquo;lazy&rdquo;></div>
-    <div class=&rdquo;card-body&rdquo;>
-      <h2>Beach &middot; dusk, magenta band</h2>
-      <p>&ldquo;dusk on the beach, sun just at the horizon over the sea, magenta band, long shadows&rdquo;</p>
-    </div>
-  </a>
-</div>
-
-<p class=&rdquo;note&rdquo;><strong>Only the sky is generated here.</strong> Every other layer is the hand-built scene, so you are
-seeing one model’s work in isolation. The whole-scene demos, where the ground, planting and furniture are
-model-written too, are on the <a href=&rdquo;../specialist-scenes/&rdquo;>scenes page</a>.</p>
-
-<footer>Frames are the verifier’s own captures &middot; Built with Godot&nbsp;4 &middot;
-<a href=&rdquo;https://github.com/mlobree/godot-game&rdquo;>github.com/mlobree/godot-game</a></footer>
-</main>
+<p>Scene Studio now lives at <a href="https://marc-genai-aws.github.io/godot-game/specialist-skies/">marc-genai-aws.github.io/godot-game/specialist-skies/</a>.</p>
 </body>
 </html>
